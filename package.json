@@ -1,0 +1,17 @@
+{
+  "name": "@vant/waterfall",
+  "version": "1.0.0",
+  "description": "vant waterfal component",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npx babel src --out-dir lib"
+  },
+  "author": "neverland",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-object-assign": "^7.2.0",
+    "@babel/preset-env": "^7.4.4"
+  }
+}
