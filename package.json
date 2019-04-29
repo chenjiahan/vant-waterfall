@@ -1,10 +1,11 @@
 {
   "name": "@vant/waterfall",
   "version": "1.0.0",
-  "description": "vant waterfal component",
+  "description": "vant waterfall component",
   "main": "lib/index.js",
   "scripts": {
-    "build": "npx babel src --out-dir lib"
+    "build": "npx babel src --out-dir lib",
+    "release": "npm run build && npm publish --access public"
   },
   "author": "neverland",
   "license": "ISC",

@@ -1,4 +1,10 @@
-## Waterfall 瀑布流
+# Waterfall 瀑布流
+
+### 安装
+
+```bash
+npm i @vant/waterfall -S
+```
 
 ### 使用指南
 
